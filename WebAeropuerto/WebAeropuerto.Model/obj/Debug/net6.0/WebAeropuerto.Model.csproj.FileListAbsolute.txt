@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\bin\Debug\net6.0\WebAeropuerto.Model.deps.json
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\bin\Debug\net6.0\WebAeropuerto.Model.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\bin\Debug\net6.0\WebAeropuerto.Model.pdb
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\refint\WebAeropuerto.Model.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\WebAeropuerto.Model.pdb
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Model\obj\Debug\net6.0\ref\WebAeropuerto.Model.dll

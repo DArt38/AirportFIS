@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\bin\Debug\net6.0\WebAeropuerto.Data.deps.json
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\bin\Debug\net6.0\WebAeropuerto.Data.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\bin\Debug\net6.0\WebAeropuerto.Data.pdb
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\bin\Debug\net6.0\WebAeropuerto.Model.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\bin\Debug\net6.0\WebAeropuerto.Model.pdb
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.csproj.CopyComplete
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\refint\WebAeropuerto.Data.dll
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\WebAeropuerto.Data.pdb
+C:\Users\ASUS\Documents\Aa2022\Noviembre\Proyectos\Prueba10s\WebAeropuerto\WebAeropuerto.Data\obj\Debug\net6.0\ref\WebAeropuerto.Data.dll
