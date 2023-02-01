@@ -12,7 +12,7 @@ namespace WebAeropuerto.Controllers
     {
         private readonly ILlegadaRepository _llegadaRepository;
 
-      
+
         public LlegadaController(ILlegadaRepository llegadaRepository)
         {
             _llegadaRepository = llegadaRepository;
@@ -31,21 +31,7 @@ namespace WebAeropuerto.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateLlegada([FromBody]Llegada llegada)
-        {
-            if(llegada == null)
-              return BadRequest();
-
-            if(!ModelState.IsValid)
-                return BadRequest(ModelState);
-            
-            var created = await _llegadaRepository.InsertLlegada(llegada);
-
-            return Created("created",created);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> UpdateLlegada([FromBody] Llegada llegada)
+        public async Task<IActionResult> CreateLlegada([FromBody] Llegada llegada)
         {
             if (llegada == null)
                 return BadRequest();
@@ -53,10 +39,26 @@ namespace WebAeropuerto.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-           await _llegadaRepository.UpdateLlegada(llegada);
+            var created = await _llegadaRepository.InsertLlegada(llegada);
 
+            return Created("created", created);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateLlegada([FromBody] Llegada llegada)
+        {   
+           if (llegada == null)
+                return BadRequest();
+           
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            await _llegadaRepository.UpdateLlegada(llegada);
+            
+          
             return NoContent();
         }
+
 
         [HttpDelete]
         public async Task<IActionResult> DeleteLlegada(int id)

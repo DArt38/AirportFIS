@@ -53,7 +53,7 @@ namespace WebAeropuerto.Data.Repositories
                         VALUES (@Hora, @Desde, @Vuelo_no, @Observaciones)";
 
             var  result = await db.ExecuteAsync(sql, new 
-            { llegada.Hora, llegada.Desde, llegada.Vuelo_No, llegada.Observacion });
+            { llegada.Hora, llegada.Desde, llegada.Vuelo_No, llegada.Observaciones });
 
             return result > 0;
         }
@@ -61,15 +61,15 @@ namespace WebAeropuerto.Data.Repositories
         public async Task<bool> UpdateLlegada(Llegada llegada)
         {
             var db = dbConnection();
-            var sql = @" UPDATE llegadas
+            var sql = @"UPDATE llegadas
                         SET hora = @Hora,
                             desde = @Desde,
                             vuelo_no = @Vuelo_no,
                             observaciones = @Observaciones
                             WHERE id = @Id";
 
-            var result = await db.ExecuteAsync(sql, new
-            { llegada.Hora, llegada.Desde, llegada.Vuelo_No, llegada.Observacion });
+            var result = await db.ExecuteAsync(sql, new { llegada.Hora, llegada.Desde,
+                llegada.Vuelo_No, llegada.Observaciones, llegada.Id });
 
             return result > 0;
         }

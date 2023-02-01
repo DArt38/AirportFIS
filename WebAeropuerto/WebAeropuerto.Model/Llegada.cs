@@ -15,7 +15,7 @@ namespace WebAeropuerto.Model
         public string Desde { get; set; }
         
         public string Vuelo_No { get; set;}
-        public string Observacion { get; set; }
+        public string Observaciones { get; set; }
 
 
     }
