@@ -6,12 +6,12 @@
 
           <!-- Icon -->
           <div class="fadeIn first">
-            <img src="@/assets/logo.png" id="icon" alt="User Icon" />
+            <img src="@/assets/logo2.jpg" id="icon" alt="User Icon" />
           </div>
 
           <!-- Login Form -->
           <form v-on:submit.prevent="login">
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario" v-model="usuario">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="User" v-model="usuario">
             <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password" v-model="password">
             <input type="submit" class="fadeIn fourth" value="Log In">
           </form>

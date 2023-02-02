@@ -16,27 +16,14 @@
                         </tr>
                     </thead>
                 <tbody>
-                    <tr>
-                    <th scope="row">1</th>
-                    <td>10:30</td>
-                    <td>New York</td>
-                    <td>LY4839</td>
-                    <td>BAGS DELIVERED</td>
+                    <tr v-for="llegada in Listallegadas" :key="llegada.id">
+                    <th scope="row">{{ llegada.id }}</th>
+                    <td>{{ llegada.hora }}</td>
+                    <td>{{ llegada.desde }}</td>
+                    <td>{{ llegada.vuelo_No }}</td>
+                    <td>{{ llegada.observaciones }}</td>
                     </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td>10:45</td>
-                    <td>Toronto</td>
-                    <td>FJ7252</td>
-                    <td>BAGS DELIVERED</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td>11:00</td>
-                    <td>Dubai</td>
-                    <td>LV2317</td>
-                    <td>EXPECTED 11:20</td>
-                    </tr>
+                   
                 </tbody>
                 </table>
             </div>
@@ -96,6 +83,12 @@ import axios from 'axios'
 
 export default{
     name: 'DashBoard',
+    data(){
+        return{
+             Listallegadas:null,
+             pagina:1
+        }
+    },
     components:{
         HeaderItem,
         FooterItem
@@ -103,7 +96,7 @@ export default{
     mounted: function(){
             let direccion = "https://localhost:7048/api/Llegada";
             axios.get(direccion).then(data =>{
-                console.log(data);            
+                this.Listallegadas = data.data;            
             })
     }
 }
