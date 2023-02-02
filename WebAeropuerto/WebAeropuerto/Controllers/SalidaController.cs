@@ -11,7 +11,7 @@ namespace WebAeropuerto.Controllers
     {
         private readonly ISalidaRepository _salidaRepository;
 
-        public SalidaController(SalidaRepository salidaRepository)
+        public SalidaController(ISalidaRepository salidaRepository)
         {
             _salidaRepository = salidaRepository;
         }

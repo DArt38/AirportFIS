@@ -1,10 +1,11 @@
 using MySql.Data.MySqlClient;
 using WebAeropuerto.Data;
 using WebAeropuerto.Data.Repositories;
+using WebAeropuerto.Startup;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.RegisterServices();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -24,8 +25,8 @@ builder.Services.AddSingleton(mySQLConfiguration);
 
 //builder.Services.AddSingleton(new MySqlConnection(builder.Configuration.GetConnectionString("MySqlConnection"));
 
-builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
-builder.Services.AddScoped<ISalidaRepository, SalidaRepository>();
+//builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
+//builder.Services.AddScoped<ISalidaRepository, SalidaRepository>();
 
 builder.Services.AddCors(options =>
 {
