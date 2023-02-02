@@ -4,8 +4,6 @@ using WebAeropuerto.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
-builder.Services.AddScoped<ISalidaRepository, SalidaRepository>();
 
 // Add services to the container.
 
@@ -26,6 +24,18 @@ builder.Services.AddSingleton(mySQLConfiguration);
 
 //builder.Services.AddSingleton(new MySqlConnection(builder.Configuration.GetConnectionString("MySqlConnection"));
 
+builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
+builder.Services.AddScoped<ISalidaRepository, SalidaRepository>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("NuevaPolitica", app => 
+    {
+        app.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -37,6 +47,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
+app.UseCors("NuevaPolitica");
 
 app.UseHttpsRedirection();
 
