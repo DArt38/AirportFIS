@@ -42,29 +42,13 @@
                         </tr>
                     </thead>
                 <tbody>
-                    <tr>
-                    <th scope="row">1</th>
-                    <td>10:30</td>
-                    <td>New York</td>
-                    <td>LY4839</td>
-                    <td>A1</td>
-                    <td>BAGS DELIVERED</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">2</th>
-                    <td>10:45</td>
-                    <td>Toronto</td>
-                    <td>FJ7252</td>
-                    <td>C2</td>
-                    <td>BAGS DELIVERED</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">3</th>
-                    <td>11:00</td>
-                    <td>Dubai</td>
-                    <td>LV2317</td>
-                    <td>E3</td>
-                    <td>EXPECTED 11:20</td>
+                    <tr v-for="salida in Listasalidas" :key="salida.id">
+                    <th scope="row">{{ salida.id }}</th>
+                    <td>{{ salida.hora }}</td>
+                    <td>{{ salida.hasta }}</td>
+                    <td>{{ salida.vuelo_No }}</td>
+                    <td>{{ salida.puerta }}</td>
+                    <td>{{ salida.observaciones }}</td>
                     </tr>
                 </tbody>
                 </table>
@@ -86,6 +70,7 @@ export default{
     data(){
         return{
              Listallegadas:null,
+             Listasalidas: null,
              pagina:1
         }
     },
@@ -95,8 +80,12 @@ export default{
     },
     mounted: function(){
             let direccion = "https://localhost:7048/api/Llegada";
+            let direccion2 = "https://localhost:7048/api/Salida";
             axios.get(direccion).then(data =>{
                 this.Listallegadas = data.data;            
+            })
+            axios.get(direccion2).then(data =>{
+                this.Listasalidas = data.data;            
             })
     }
 }
