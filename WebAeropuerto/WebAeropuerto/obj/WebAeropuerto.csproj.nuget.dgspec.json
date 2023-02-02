@@ -154,6 +154,9 @@
             "projectReferences": {
               "C:\\Users\\ASUS\\Documents\\Aa2022\\Noviembre\\Proyectos\\Prueba10s\\WebAeropuerto\\WebAeropuerto.Data\\WebAeropuerto.Data.csproj": {
                 "projectPath": "C:\\Users\\ASUS\\Documents\\Aa2022\\Noviembre\\Proyectos\\Prueba10s\\WebAeropuerto\\WebAeropuerto.Data\\WebAeropuerto.Data.csproj"
+              },
+              "C:\\Users\\ASUS\\Documents\\Aa2022\\Noviembre\\Proyectos\\Prueba10s\\WebAeropuerto\\WebAeropuerto.Model\\WebAeropuerto.Model.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Documents\\Aa2022\\Noviembre\\Proyectos\\Prueba10s\\WebAeropuerto\\WebAeropuerto.Model\\WebAeropuerto.Model.csproj"
               }
             }
           }

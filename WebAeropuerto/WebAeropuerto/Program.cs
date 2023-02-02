@@ -4,6 +4,9 @@ using WebAeropuerto.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
+builder.Services.AddScoped<ISalidaRepository, SalidaRepository>();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -22,9 +25,11 @@ var mySQLConfiguration = new MySQLConfiguration(builder.Configuration.GetConnect
 builder.Services.AddSingleton(mySQLConfiguration);
 
 //builder.Services.AddSingleton(new MySqlConnection(builder.Configuration.GetConnectionString("MySqlConnection"));
-builder.Services.AddScoped<ILlegadaRepository, LlegadaRepository>();
+
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

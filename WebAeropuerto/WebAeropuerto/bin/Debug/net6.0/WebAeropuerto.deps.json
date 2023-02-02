@@ -9,7 +9,8 @@
       "WebAeropuerto/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3",
-          "WebAeropuerto.Data": "1.0.0"
+          "WebAeropuerto.Data": "1.0.0",
+          "WebAeropuerto.Model": "1.0.0"
         },
         "runtime": {
           "WebAeropuerto.dll": {}

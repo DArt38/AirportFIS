@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebAeropuerto.Data\WebAeropuerto.Data.csproj" />
+    <ProjectReference Include="..\WebAeropuerto.Model\WebAeropuerto.Model.csproj" />
   </ItemGroup>
 
 </Project>
